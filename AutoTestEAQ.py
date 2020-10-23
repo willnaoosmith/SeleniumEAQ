@@ -34,7 +34,7 @@ try:
 	resultado["Upload"] = DownAndUp[1].text
 	resultado['Hora de inicio'] = horaInicioTeste
 	resultado['Hora de termino'] = horaFimTeste
-	resultado['Latência'] = Manyresults[3].text
+	resultado['Latencia'] = Manyresults[3].text
 	resultado['Jitter'] = Manyresults[5].text
 	resultado['Perda'] = Manyresults[7].text
 	resultado['IP'] = Manyresults[9].text
